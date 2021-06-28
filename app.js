@@ -124,3 +124,27 @@ else if(per >= 50 && per<=59  ){
 else if( per <=49 ){
         document.write("You Are FAil Sory Try Next Time")
 }
+
+
+/* Currency Rate in pkr */ 
+
+document.write("Currency in Pkr ")
+
+var  us_dollars
+var  Saudi_Riyals
+var pkr
+var  pk
+var pakistan
+
+us_dollars=+prompt("Enter  US Dollars ")
+Saudi_Riyals=+prompt("Enter Saudi Riyals ") 
+
+pkr=us_dollars*157;
+pk=Saudi_Riyals*42;
+
+document.write( "<br>" + "<br>" + "  Us_dollar is " + us_dollars) 
+document.write( "<br>" + "<br>" +  "Saudi_Riyal is " + Saudi_Riyals)
+
+pakistan=pkr+pk
+
+document.write( "<br>" + "<br>" +   "Total Currency in Pkr  is " +  pakistan)
